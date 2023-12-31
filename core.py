@@ -1,11 +1,10 @@
 # Python
-import requests
-import json
 import time
 from pathlib import Path
 from typing import Union
 
 # Libraries
+import requests
 
 # Local
 import environment as env
