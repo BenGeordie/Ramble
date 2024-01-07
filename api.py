@@ -62,8 +62,9 @@ def summarize_and_format_transcript(transcript: str, api_key: str):
         " organized, and feel free to use headers, to-do lists, and other formatting"
         " where necessary. The speaker may also correct themselves in this"
         " conversation. Whenever this happens, make sure the summary captures the"
-        " correction and not the mistake. Finally, format it in markdown. Do not"
-        f" return anything except the markdown.\n\nTranscript:\n{transcript}"
+        " correction and not the mistake. Make it concise and write in first person."
+        " Finally, format it in markdown. Do not return anything except the markdown."
+        "\n\nTranscript:\n{transcript}"
     )
 
     data = {
